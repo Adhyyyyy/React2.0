@@ -1,0 +1,62 @@
+.Ibox{
+  position: fixed;
+  top: 100px;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+.cart{
+  height: 300px;
+  overflow:scroll;
+  padding: 10px;
+  border: 10px solid white;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart::-webkit-scrollbar{
+  scrollbar-width: none;
+}
+#cartImg{
+  width: 40px;
+}
+#uList{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+#iList{
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.addRemove{
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.total{
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffff;
+}
